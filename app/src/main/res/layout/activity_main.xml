@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="146dp"
+        android:layout_height="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+    <EditText
+        android:id="@+id/PhoneNo"
+        android:layout_width="298dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/edit"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:textColorHint="@color/blue"
+        android:ems="10"
+        android:hint="Phone No"
+        android:inputType="phone"
+        android:shadowColor="#A81D75"
+        android:shadowDx="0"
+        android:shadowDy="0" />
+
+    <EditText
+        android:id="@+id/Otp"
+        android:layout_width="288dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="149dp"
+        android:background="@drawable/edit"
+        android:drawableLeft="@drawable/kingo"
+        android:textColorHint="@color/blue"
+        android:ems="10"
+        android:hint="Otp"
+        android:inputType="textPersonName"
+        android:shadowColor="#A81D75" />
+
+    <Button
+        android:id="@+id/VerifyNo"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_alignStart="@+id/PhoneNo"
+        android:layout_centerVertical="true"
+        android:background="@drawable/colors"
+        android:shadowColor="#A81D75"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="VerifyNo"
+        android:textColor="#0D0C0C"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/verifyotp"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:background="@drawable/colors"
+        android:shadowColor="#A81D75"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="VerifyOtp"
+        android:textColor="#0D0C0C"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/resend"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_alignEnd="@+id/PhoneNo"
+        android:layout_alignTop="@+id/VerifyNo"
+        android:background="@drawable/colors"
+        android:shadowColor="#A81D75"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="resend"
+        android:textColor="#0D0C0C"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Go"
+        android:layout_width="136dp"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/colors"
+        android:shadowColor="#999BA8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Go"
+        android:textColor="#020203"
+        android:textSize="15sp" />
+
+
+
+</RelativeLayout>

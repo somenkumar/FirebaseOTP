@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "403859116850",
+    "firebase_url": "https://fir-otp-56546.firebaseio.com",
+    "project_id": "fir-otp-56546",
+    "storage_bucket": "fir-otp-56546.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403859116850:android:0843a12052a2e736",
+        "android_client_info": {
+          "package_name": "com.example.somen.firebaseotp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403859116850-qm1tqj0ofhnkao4ankbhs3cd36sdf1bu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.somen.firebaseotp",
+            "certificate_hash": "16052bc1a41e9bbd4f4ee9f75dfd26f7634b0c85"
+          }
+        },
+        {
+          "client_id": "403859116850-pfv6nnbulg8g38pvcq7vgksm27f51qoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm_U6QmlOgohKj58zItrEfN2PxU8Z-RCk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403859116850-pfv6nnbulg8g38pvcq7vgksm27f51qoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
